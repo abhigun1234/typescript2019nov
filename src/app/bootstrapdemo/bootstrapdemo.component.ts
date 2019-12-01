@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bootstrapdemo.component.css']
 })
 export class BootstrapdemoComponent implements OnInit {
-
+  fruits=["mango","banana","apple","orange","pinaple"]
   constructor() { }
-
+  toggle=true
   ngOnInit() {
   }
 
